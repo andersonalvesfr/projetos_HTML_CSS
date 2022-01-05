@@ -1,0 +1,147 @@
+
+body {
+	background: #F2BD1D;
+}
+/**-------------------Começo do cabeçalho-------------------**/
+header {
+
+	text-align: center;
+	font-weight: bold;
+	color: #F2BD1D;
+	font-size: 30px;
+	background: #A772F2;
+}
+header h1 {
+	padding-top: 10px;
+}
+header ul {
+	display: inline;
+}
+
+nav a {
+
+	text-transform: uppercase; /**Maiusculo**/
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+
+}
+.cabecalho-link {
+	display: inline-block;
+	/**margin: 20px 100px;**/
+	margin: 0 auto;
+	padding: 1% 13%;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#agua:hover {
+	color: blue;
+	font-size: 21px;
+	text-decoration: underline;
+}
+
+#fogo:hover {
+	color: red;
+	font-size: 21px;
+	text-decoration: underline;
+	
+}
+
+#planta:hover {
+	color: green;
+	font-size: 21px;
+	text-decoration: underline;
+}
+
+/**-------------------Fim do cabeçalho-------------------**/
+main {
+	box-sizing: border-box;
+}
+
+.caixa-externa {
+
+	
+	width: 940px;
+	margin: 0 auto;
+	border: 7px solid #A6281C;
+	background: #F263A6;
+	box-sizing: border-box;
+}
+.caixa-do-pokemon {
+	position: relative;
+	display: inline-block;
+	width: 30%; 
+	height: 138px;
+	background: #D97823;
+	margin: 1.5% 1.5%;
+	border: 5px solid #A6281C;
+	box-sizing: border-box;
+	border-radius: 0px 15px 0px 15px;
+
+}
+}
+.pokemonsImg {
+ 	position: absolute;
+ 	top: 0px;
+ 	
+}
+main div div ul {
+	position: absolute;
+	top: 0px;
+	display: inline;
+	padding: 12% 0;
+	box-sizing: border-box;
+	text-align: center;
+	width: 138px;
+
+	
+}
+.atributos {
+	color: #ffffff;
+	font-weight: lighter;
+	font-size: 16px;
+	margin: 4px auto;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+.caixa-do-pokemon:hover {
+	border-color: #ffffff;
+}
+
+.caixa-do-pokemon:hover .atributos{
+	border-color: #ffffff;
+	font-size: 17px;
+	font-weight: bolder;
+}
+.nomeDoPokemon{
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: lighter;
+	font-size: 16px;
+	margin: 4px auto;
+	box-sizing: border-box;
+	text-align: center;
+}
+.caixa-do-pokemon:hover .nomeDoPokemon{
+	border-color: #ffffff;
+	font-size: 17px;
+	font-weight: bolder;
+}
+/**-------------------Começo do Rodapé-------------------**/
+ .rodape {
+ 	text-align: center;
+ 	color: #F2BD1D;
+ 	font-size: 18px;
+ 	margin-top: 20px;
+ 	background: #A772F2;
+ 	font-weight: bolder;
+ 	padding-bottom: 1.5%;
+ }
+footer img {
+	margin: 0.5%;
+	width: 2.5%;
+}
